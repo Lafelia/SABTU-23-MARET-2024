@@ -1,0 +1,62 @@
+.text-fade {
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.kotak-1 {
+  transition: all 200ms ease-out;
+}
+
+.apple {
+  transition: all 200ms ease-out;
+}
+
+.setapp {
+  transition: all 200ms ease-out;
+}
+
+.apple-line,
+.setapp-line {
+  transition: all 200ms ease-out;
+}
+
+.apple-button {
+  transition: all 200ms ease-out;
+}
+
+.setapp-button {
+  transition: all 200ms ease-out;
+}
+
+.kotak-1:hover {
+  background-color: black;
+  color: white;
+}
+
+.kotak-1:hover .apple,
+.kotak-1:hover .setapp {
+  fill: white;
+}
+
+.kotak-1:hover .apple-line,
+.kotak-1:hover .setapp-line {
+  background-color: white !important;
+}
+
+.kotak-1:hover .apple-button,
+.kotak-1:hover .setapp-button {
+  background-color: black !important;
+  border-color: white !important;
+}
+
+@keyframes text {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
